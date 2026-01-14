@@ -1,0 +1,37 @@
+body{
+    max-width: 1170px;
+    background-color: rgb(235, 167, 78);
+    margin: 0 auto;
+}
+.card-section{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.card{
+   width: 300px; 
+   border: 2px solid sandybrown;
+   border-radius: 10px;
+   background-color: beige;
+   padding: 10px;
+   box-shadow: 10px 10px 10px black;
+   text-align: center;
+
+}
+.card h3{
+    font-size: 1.25m;
+    font-weight: 700;
+}
+.card img{
+    width: 100%;
+    border-radius: 10%;
+}
+.card button{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
